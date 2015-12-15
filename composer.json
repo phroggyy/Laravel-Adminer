@@ -1,0 +1,22 @@
+{
+    "name": "phroggyy/laravel-adminer",
+    "description": "A wrapper for the Adminer Database admin",
+    "require": {
+        "illuminate/support": "~5.1",
+        "illuminate/console": "~5.1",
+        "illuminate/filesystem": "~5.1",
+        "illuminate/http": "^5.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leo Sjöberg",
+            "email": "leo.sjoberg@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Phroggyy\\LaravelAdminer\\": "src/"
+        }
+    }
+}
