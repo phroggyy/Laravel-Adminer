@@ -10,7 +10,7 @@ This package was inspired by [Miroc](https://github.com/miroc)'s [Laravel-Admine
 To install the library, first pull it in through Composer:
 
 ```
-composer install phroggyy/laravel-admin dev-master
+composer require phroggyy/laravel-adminer dev-master
 ```
 
 Then simply register the service provider in the `providers` array in `config/app.php`
