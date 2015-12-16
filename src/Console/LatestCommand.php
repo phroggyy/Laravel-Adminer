@@ -21,6 +21,7 @@ class LatestCommand extends Command
     public function __construct(Filesystem $files)
     {
         $this->files = $files;
+        parent::__construct();
     }
     
     public function handle()
