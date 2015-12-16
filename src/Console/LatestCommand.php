@@ -3,7 +3,7 @@
 namespace Phroggyy\LaravelAdminer\Console;
 
 use Illuminate\Console\Command;
-use Illuminate\Contracts\Filesystem\Filesystem;
+use Illuminate\Filesystem\Filesystem;
 
 class LatestCommand extends Command
 {
