@@ -42,7 +42,7 @@ class LatestCommand extends Command
 
         $file .= '.php';
 
-        $this->files->put("adminer.php", fopen($file));
+        $this->files->put("adminer.php", fopen($file, 'r'));
         $this->info("Latest adminer version downloaded.");
     }
 }

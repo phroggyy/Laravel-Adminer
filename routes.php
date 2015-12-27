@@ -1,6 +1,6 @@
 <?php
 
 Route::any('adminer', function() {
-    require 'adminer.php';
+    require base_path() . '/adminer.php';
     return new \Phroggyy\LaravelAdminer\EmptyResponse();
 });

@@ -2,7 +2,6 @@
 
 namespace Phroggyy\LaravelAdminer;
 
-
 use Illuminate\Support\ServiceProvider;
 use Phroggyy\LaravelAdminer\Console\LatestCommand;
 
@@ -30,6 +29,4 @@ class AdminerServiceProvider extends ServiceProvider
     {
         return ['command.adminer.latest'];
     }
-
-
 }
